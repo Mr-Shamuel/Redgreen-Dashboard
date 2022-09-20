@@ -1,7 +1,6 @@
 import "./Sales.scss";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined"; 
 import accident from "../../images/accident.png";
 
 const Sales = () => {

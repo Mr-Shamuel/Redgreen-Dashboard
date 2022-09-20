@@ -57,12 +57,12 @@
       .currentdate {
         width: 100%;
         margin: 17px 0px;
-        // padding: 0px 20px;
+         
         display: flex;
-        align-items: center;
+        align-items: center; 
         justify-content: flex-end;
         .logo {
-          
+           
           .icon {
             font-size: 20px;
             &:nth-child(1){
