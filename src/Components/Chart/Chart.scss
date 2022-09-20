@@ -1,0 +1,115 @@
+.featured {
+  flex: 2;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 4.47);
+  padding: 20px;
+
+  border-radius: 7px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+
+    .title {
+      font-size: 24px;
+      font-weight: 500;
+      color:#181818; ;
+    }
+  }
+
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    .title {
+      .subtitle {
+        font-size: 16px;
+        color: #5C5C5C;
+        font-weight: 400;
+      }
+      .subNumber {
+        color: #181818;;
+        font-size: 28px;
+        font-weight: 500;
+      }
+    }
+
+    .date {
+      display: flex;
+      align-self: flex-start;
+      justify-content: space-between;
+      color: #181818;;
+      font-size: 14px;
+      border: 1px solid rgb(218, 212, 212);
+      padding: 3px;
+      border-radius: 5px;
+      padding-left: 10px;
+
+      .icon {
+        color: gray;
+        margin: 0px 5px;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    .btmlogo {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btmList {
+      flex: 1;
+
+      display: flex;
+      align-items: center;
+      margin-top: 60px;
+      .items {
+        font-size: 14px;
+        font-weight: 400;
+
+
+        li {
+          list-style: none;
+          color: #181818;
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+
+          
+
+          .itemColor {
+            height: 18px;
+            width: 18px;
+            border-radius: 50%;
+            background-color: #2d5bff;
+            margin-right: 7px;
+          }
+          .itemColor2 {
+            height: 18px;
+            width: 18px;
+            border-radius: 50%;
+            background-color: #6284fd;
+            margin-right: 7px;
+          }
+          .itemColor3 {
+            height: 18px;
+            width: 18px;
+            border-radius: 50%;
+            background-color: #96adff;
+            margin-right: 7px;
+          }
+        }
+        p {
+            color: #2d5bff;
+            font-size: 14px;
+            font-weight: 400;
+          }
+      }
+    }
+  }
+}
