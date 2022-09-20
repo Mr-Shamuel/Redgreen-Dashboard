@@ -1,6 +1,8 @@
 import "./Weather.scss";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import sun from "../../images/sun.png";
+import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 const Weather = () => {
   return (
     <div className="weather">
@@ -14,10 +16,18 @@ const Weather = () => {
           <h1 className="time">08:21 AM </h1>
           <img className="icon" src={sun} alt="sun and cloud" />
           <div className="bottom-text">Cloudy Sunny, 24°C</div>
-          
         </div>
         <div className="right">
-          <div className="currentdate"> Wed, 21 September 2022</div>
+          <div className="currentdate">
+           <div className="title">
+
+            Wed, 21 September 2022
+           </div>
+            <div className="logo">  
+              <KeyboardArrowLeftIcon className="icon" />
+              <KeyboardArrowRightIcon  className="icon"/>
+            </div>
+          </div>
 
           <ul>
             <li>

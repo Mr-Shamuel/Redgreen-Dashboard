@@ -11,8 +11,9 @@
     color: grey;
 
     .title {
-      font-size: 22px;
-      font-weight: 600;
+      font-size: 24px;
+      font-weight: 500;
+      color: #181818;;
     }
   }
 
@@ -23,12 +24,13 @@
     margin: 15px 0px;
     .title {
       .subtitle {
-        font-size: 18px;
-        color: grey;
+        font-size: 16px;
+        font-weight: 400;
+        color: #5C5C5C;
       }
       .subNumber {
-        color: #333;
-        font-size: 35px;
+        color:  #181818;
+        font-size: 28px;
         font-weight: 500;
       }
     }
@@ -37,7 +39,8 @@
       display: flex;
       align-self: flex-start;
       justify-content: space-between;
-      color: #333;
+      color: #181818;
+      font-weight: 400;
       font-size: 14px;
       border: 1px solid rgb(218, 212, 212);
       padding: 3px;
@@ -46,7 +49,7 @@
 
       .icon {
         color: gray;
-        margin: 5px 5px;
+        margin: 3px 5px;
       }
     }
   }
@@ -76,20 +79,21 @@
         .header {
           margin: 5px 20px;
           h1 {
-            font-size: 20px;
+            font-size: 16px;
             color: #181818;
-            font-weight: 600;
+            font-weight: 500;
           }
           p {
-            font-size: 16px;
+            font-size: 14px;
             color: #747474;
+            font-weight: 400;
           }
         }
       }
 
       .details {
         color: #2d5bff;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
         cursor: pointer;
       }
@@ -100,7 +104,7 @@
     margin-top: 17px;
     margin-left: 17px;
     color: #2d5bff;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500;
     cursor: pointer;
   }

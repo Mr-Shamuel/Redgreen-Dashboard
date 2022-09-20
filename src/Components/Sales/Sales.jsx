@@ -18,7 +18,7 @@ const Sales = () => {
         </div>
 
         <div className="date">
-          August 2022
+        September 2022
           <CalendarTodayOutlinedIcon fontSize="1" className="icon" />
         </div>
       </div>
